@@ -13,7 +13,7 @@ Este projeto analisa o índice de cancelamento de clientes (churn) em provedores
 - Churn em contratos não fidelizados: **43,39%**
 - Churn em planos fidelizados (>12 meses): **9,02%**
 
-![Dashboard Churn Rate](./screenshot_1.png)
+![Dashboard Churn Rate](/churn-rate/Screenshot_1.png)
 
 ## Arquivos
 - 📊 [Dashboard (imagem)](./dashboard.png)
