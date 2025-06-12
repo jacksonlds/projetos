@@ -1,20 +1,29 @@
 # Dashboard de Churn Rate – Provedores de Internet
 
-Este projeto analisa o índice de cancelamento de clientes (churn) em provedores de internet, utilizando dados simulados e visualizações no Power BI.
+Este projeto utiliza o **Power BI** para analisar a taxa de cancelamento de clientes (churn rate) em provedores de internet, com base em dados simulados que representam cenários reais do setor.
+
+## Objetivo
+Identificar padrões e principais causas de cancelamento de clientes, fornecendo insights que auxiliem na retenção e fidelização, especialmente em mercados locais com alta concorrência.
 
 ## Principais Análises
-- Cancelamentos por tipo de contrato
-- Churn por tecnologia (fibra, DSL, rádio)
-- Perfil dos clientes cancelados
-- Fatores como idade, chamadas de suporte e fidelização
+- Cancelamentos por tipo de contrato (fidelizado x não fidelizado)
+- Impacto do número de chamadas de suporte no churn
+- Comparativo entre tecnologias utilizadas (fibra, rádio, DSL)
+- Perfil demográfico dos clientes que cancelam (idade, gênero)
 
-## Insights
+## Principais Insights
 - Churn total: **27,28%**
 - Churn em contratos não fidelizados: **43,39%**
-- Churn em planos fidelizados (>12 meses): **9,02%**
+- Churn em planos fidelizados maiores que 12 meses: **9,02%**
+- Tecnologias defasadas (DSL e rádio) concentram maior evasão
+
+## Ferramentas Utilizadas
+- Power BI
+- Excel (estruturação dos dados)
+- Dados simulados com base em padrões reais do setor
 
 ![Dashboard Churn Rate](/churn-rate/Screenshot_1.png)
 
 ## Arquivos
-- 📊 [Dashboard (imagem)](./dashboard.png)
-- 📥 [Arquivo Power BI (.pbix)](./churn.pbix)
+- 📊 [Dashboard (.pbix)](/churn-rate/Dashboard.pbix)
+- 📥 [Base de dados (.xlsx)](/churn-rate/clientes_provedor_internet.xlsx)
