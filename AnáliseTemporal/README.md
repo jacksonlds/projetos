@@ -100,15 +100,20 @@ jupyter notebook
 
 ## Estrutura do Projeto
 ```
-├── database/ # Banco de dados SQLite usado na análise
-│ └── dbprojeto1.db
-├── imagens/ # Imagens usadas no README ou no notebook
-│ └── grafico_evolucao.png
-├── Projeto.ipynb # Notebook com todo o código e análise
-├── README.md # Documentação do projeto (este arquivo)
-├── requirements.txt # Arquivo com as dependências necessárias
-└── LICENSE # Licença do projeto (MIT)
-````
+meu_projeto/
+├── anaconda_projects/         # (Ignorar) Pasta criada automaticamente pelo Anaconda, não precisa estar no repositório
+│   └── project_filebrowser.db
+├── database/                  # Bancos de dados utilizados no projeto (SQLite, por exemplo)
+│   └── dbprojeto1.db
+├── dataset/                   # Arquivos de dados brutos ou tratados (CSV, Excel, JSON, etc.)
+│   └── internet_usage.csv
+├── imagens/                   # Imagens utilizadas no README ou no notebook (ex.: gráficos, diagramas, capa do projeto)
+│   └── projeto.jpg
+├── LICENSE                    # Licença do projeto (MIT)
+├── Projeto.ipynb              # Notebook com código, análise e resultados
+├── README.md                  # Documentação do projeto (descrição, instruções, etc.)
+├── requirements.txt           # Dependências necessárias para rodar o projeto
+```
 
 ## Funcionalidades
 
