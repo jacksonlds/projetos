@@ -100,7 +100,7 @@ jupyter notebook
 
 ## Estrutura do Projeto
 ```
-meu_projeto/
+ProjetoAnaliseTemporal/
 ├── anaconda_projects/         # (Ignorar) Pasta criada automaticamente pelo Anaconda, não precisa estar no repositório
 │   └── project_filebrowser.db
 ├── database/                  # Bancos de dados utilizados no projeto (SQLite, por exemplo)
