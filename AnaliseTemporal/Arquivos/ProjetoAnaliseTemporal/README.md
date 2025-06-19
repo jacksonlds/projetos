@@ -173,7 +173,7 @@ Você pode instalar manualmente:
 ```bash
 pip install pandas numpy ipython-sql sqlalchemy jupyter
 ```
-### Ou usar o arquivo **requeriments.txt:
+### Ou usar o arquivo **requeriments.txt**:
 ```
 pip install -r requirements.txt
 ```
