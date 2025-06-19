@@ -87,7 +87,7 @@ pip install pandas numpy sqlalchemy ipython-sql jupyterlab
 ### Se desejar, clone o repositório diretamente do GitHub:
 ```
 git clone https://github.com/jacksonlds/projetos.git
-cd AnáliseTemporal/Arquivos/ProjetoAnaliseTemporal
+cd AnaliseTemporal/Arquivos/ProjetoAnaliseTemporal
 ```
 ## Executar o Notebook
 ### No terminal, rode:
