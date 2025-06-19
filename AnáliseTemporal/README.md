@@ -57,15 +57,10 @@ O projeto foi desenvolvido no ambiente **Jupyter Notebook**, aplicando conceitos
 
 ### ✅ Pré-requisitos:
 - Python 3.9 ou superior
-- Jupyter Notebook
-- Bibliotecas:
-  - pandas
-  - numpy
-  - ipython-sql
-  - sqlalchemy (opcional, dependendo do ambiente)
+- Jupyter Notebook ou Jupyter Lab
 
-### ✅ Instalação das bibliotecas:
-Execute no terminal ou na célula do Jupyter Notebook:
+### ✅ Instalação das dependências:
+Você pode instalar as dependências diretamente com:
 
 ```bash
-pip install pandas numpy ipython-sql sqlalchemy
+pip install pandas numpy ipython-sql sqlalchemy jupyterlab
