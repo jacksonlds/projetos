@@ -186,7 +186,7 @@ Desenvolvido por **Jackson Lopes**.
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/jacksonls/)
 - 🔗 [GitHub](https://github.com/jacksonlds)
-- ✉️ E-mail: jackson.lopes@tutanota.com
+- 🔗 [Portfólio](https://jacksonlds.github.io/portfolio/)
 
 ---
 
