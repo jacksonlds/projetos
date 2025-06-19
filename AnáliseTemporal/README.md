@@ -1,48 +1,50 @@
 # 📊 Análise Temporal do Uso da Internet no Brasil
 
 ## 🔍 Descrição
-Este projeto tem como objetivo realizar uma **análise temporal do uso da internet no Brasil**, utilizando dados públicos disponíveis no [Kaggle](https://www.kaggle.com/datasets/meleknur/global-internet-usage-by-country-2000-2023). 
+Este projeto tem como objetivo realizar uma **análise temporal do uso da internet no Brasil**, utilizando técnicas de manipulação e análise de dados em **Python** (com as bibliotecas **Pandas** e **NumPy**) integradas a um **banco de dados relacional via SQL**. 
 
-Através de consultas em SQL e processamento em Python (Jupyter Notebook), o projeto investiga a evolução do acesso à internet no país ao longo dos anos, utilizando ferramentas e técnicas de análise de dados.
+A análise é baseada em dados públicos sobre o uso da internet entre os anos de 2000 e 2023, fornecidos pelo [Kaggle](https://www.kaggle.com/datasets/meleknur/global-internet-usage-by-country-2000-2023).
+
+O projeto foi desenvolvido no ambiente **Jupyter Notebook**, aplicando conceitos de Banco de Dados, SQL, Python e Análise de Dados.
 
 ---
 
 ## 🎯 Objetivos do Projeto
-- Aplicar na prática conhecimentos de:
-  - **SQL**
-  - **Banco de dados relacional**
-  - **Python** com **Pandas** e **NumPy**
-- Realizar uma análise temporal com foco nos seguintes pontos:
+- Aplicar, de forma prática, conceitos de:
+  - Banco de Dados Relacional
+  - SQL (consultas e análises)
+  - Manipulação e análise de dados com **Python**, **Pandas** e **NumPy**
+- Realizar uma análise temporal do uso da internet no Brasil, abrangendo:
   - 📈 Crescimento absoluto
   - 🔄 Crescimento atual
-  - 🏛️ Ranking do Brasil no primeiro e no último ano da série histórica
   - 📊 Média de crescimento anual
   - 🚀 Pico de crescimento anual
-  - ➗ Cálculo da média aritmética do período analisado
+  - 🏆 Ranking do Brasil no primeiro e no último ano da série histórica
+  - ➗ Cálculo da média aritmética do período
 
 ---
 
 ## 🗂️ Dataset
 - **Fonte:** [Global Internet Usage by Country (2000-2023) - Kaggle](https://www.kaggle.com/datasets/meleknur/global-internet-usage-by-country-2000-2023)
-- **Descrição:** Dados sobre o uso da internet em diversos países no período de 2000 a 2023.
+- **Descrição:** Dados sobre a porcentagem da população com acesso à internet em diversos países no período de 2000 a 2023.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 - **Python** (Jupyter Notebook)
-- **SQL**
-- **Pandas** e **NumPy** (para análise e manipulação dos dados)
-- **Banco de Dados Relacional** (para consultas SQL)
+- **Pandas** e **NumPy** para análise e manipulação de dados
+- **SQL** via **SQLite** para consultas e armazenamento local
+- **IPython-SQL** para integração de SQL com Jupyter Notebook
 
 ---
 
-## 📈 Resultados Gerados
-- Entendimento detalhado da evolução do uso da internet no Brasil.
-- Identificação de:
-  - Tendências de crescimento
-  - Anos de maior expansão
-  - Desempenho relativo do Brasil no ranking mundial de uso da internet
-- Geração de insights baseados em dados reais.
+## 📈 Análises Realizadas
+- Evolução temporal do uso da internet no Brasil
+- Crescimento absoluto e crescimento atual
+- Cálculo da média de crescimento anual
+- Identificação do pico de crescimento anual
+- Ranking do Brasil no início e no final da série histórica
+- Cálculo da média aritmética do uso no período analisado
 
 ---
 
@@ -51,19 +53,19 @@ Através de consultas em SQL e processamento em Python (Jupyter Notebook), o pro
 
 ---
 
-## 🔧 Como Executar o Projeto
+## 🔧 Como Executar este Projeto
 
 ### ✅ Pré-requisitos:
-- Ter o **Python** instalado (recomendado: versão 3.9 ou superior).
-- Ter o **Jupyter Notebook** instalado (ou utilizar uma plataforma como Google Colab).
-- Ter um ambiente virtual configurado (opcional, mas recomendado).
-- Ter as bibliotecas Python necessárias instaladas:
+- Python 3.9 ou superior
+- Jupyter Notebook
+- Bibliotecas:
   - pandas
   - numpy
-  - sqlalchemy (se utilizar integração SQL via Python)
+  - ipython-sql
+  - sqlalchemy (opcional, dependendo do ambiente)
 
 ### ✅ Instalação das bibliotecas:
-Execute no terminal ou no Jupyter Notebook:
+Execute no terminal ou na célula do Jupyter Notebook:
 
 ```bash
-pip install pandas numpy sqlalchemy
+pip install pandas numpy ipython-sql sqlalchemy
