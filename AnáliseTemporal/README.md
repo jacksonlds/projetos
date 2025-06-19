@@ -56,9 +56,9 @@ O projeto foi desenvolvido no ambiente **Jupyter Notebook**, aplicando conceitos
 ## Como Executar este Projeto
 
 ### Pré-requisitos:
-- Python 3.9 ou superior instalado na sua máquina.
-- Python 3.9 ou superior instalado na sua máquina.
-- Git instalado (opcional, mas recomendado para clonar o repositório).
+- [Python 3.9 ou superior](https://www.python.org/)
+- [Jupyter Notebook](https://jupyter.org/)
+- [Git](https://git-scm.com/) (opcional, para clonar o repositório)
 
 ### Instalação das dependências:
 Recomenda-se criar um ambiente virtual (opcional, mas boa prática):
