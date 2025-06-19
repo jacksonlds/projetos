@@ -25,5 +25,5 @@ Identificar padrões e principais causas de cancelamento de clientes, fornecendo
 ![Dashboard Churn Rate](/churn-rate/Screenshot_1.png)
 
 ## Arquivos
-- 📊 [Dashboard (.pbix)](/churn-rate/Dashboard.pbix)
-- 📥 [Base de dados (.xlsx)](/churn-rate/clientes_provedor_internet.xlsx)
+-  [Dashboard (.pbix)](/churn-rate/Dashboard.pbix)
+-  [Base de dados (.xlsx)](/churn-rate/clientes_provedor_internet.xlsx)
