@@ -62,10 +62,10 @@ O projeto foi desenvolvido no ambiente **Jupyter Notebook**, aplicando conceitos
   
  ## Dependências
  
-- [pandas](https://pandas.pydata.org/) — Manipulação e análise de dados
-- [numpy](https://numpy.org/) — Operações numéricas
+- [Pandas](https://pandas.pydata.org/) — Manipulação e análise de dados
+- [NumPy](https://numpy.org/) — Operações numéricas
 - [ipython-sql](https://github.com/catherinedevlin/ipython-sql) — Executar SQL dentro de notebooks Jupyter
-- [sqlalchemy](https://www.sqlalchemy.org/) — Conector para banco de dados SQLite
+- [Sqlalchemy](https://www.sqlalchemy.org/) — Conector para banco de dados SQLite
 
 ### Instalação das dependências:
 Recomenda-se criar um ambiente virtual (opcional, mas boa prática):
