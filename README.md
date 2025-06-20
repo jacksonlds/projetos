@@ -4,5 +4,5 @@ Bem-vindo ao meu portfólio! Aqui você encontrará projetos desenvolvidos com P
 
 ## Projetos
 
-- [Dashboard de Churn Rate](/churn-rate/README.md)
+- [Dashboard de Churn Rate - Provedores de Internet](/churn-rate/README.md)
 - [Análise Temporal do uso da Internet no Brasil](/AnaliseTemporal/Arquivos/ProjetoAnaliseTemporal)
