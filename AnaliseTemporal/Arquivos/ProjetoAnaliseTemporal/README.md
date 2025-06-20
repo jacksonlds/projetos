@@ -162,20 +162,6 @@ ProjetoAnaliseTemporal/
 
 ---
 
-### Instalação das dependências
-
-Você pode instalar manualmente:
-
-```bash
-pip install pandas numpy ipython-sql sqlalchemy jupyter
-```
-### Ou usar o arquivo **requeriments.txt**:
-```
-pip install -r requirements.txt
-```
-
----
-
 ## Autor
 
 Desenvolvido por **Jackson Lopes**.
