@@ -1,5 +1,3 @@
-![Análise Temporal](/AnaliseTemporal/Arquivos/Picture.png)
-
 # Análise Temporal do Uso da Internet no Brasil
 
 ## Descrição
@@ -161,6 +159,10 @@ ProjetoAnaliseTemporal/
 - [ ] Adicionar análises preditivas utilizando modelos de Machine Learning para estimar o crescimento futuro do uso da internet.
 - [ ] Melhorar a organização do código, separando funções em scripts Python externos.
 - [ ] Disponibilizar uma API simples que permita consultar os dados processados.
+
+---
+
+![Análise Temporal](/AnaliseTemporal/Arquivos/Picture.png)
 
 ---
 
