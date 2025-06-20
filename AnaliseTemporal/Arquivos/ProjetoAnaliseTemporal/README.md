@@ -175,3 +175,5 @@ Desenvolvido por **Jackson Lopes**.
 ## Licença
 
 Este projeto está sob a licença **MIT** — consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+![Análise Temporal](/AnaliseTemporal/Arquivos/Picture.png)
