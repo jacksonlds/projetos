@@ -97,13 +97,13 @@ git clone https://github.com/jacksonlds/projetos.git
 cd projetos/AnaliseTemporal/Arquivos/ProjetoAnaliseTemporal
 ```
 ## Executar o Notebook
-### No terminal, rode:
+### No terminal, execute:
 ```
 jupyter notebook
 ```
 - Isso abrirá o Jupyter no seu navegador.
 - Abra o arquivo **Projeto.ipynb**.
-- Execute as células (Shift + Enter) uma a uma para rodar todo o código.
+- Execute as células (Shift + Enter) uma a uma para rodar o código passo a passo.
 
 ## Estrutura do Projeto
 ```
@@ -142,7 +142,7 @@ ProjetoAnaliseTemporal/
 - A porcentagem da população brasileira com acesso à internet saltou de aproximadamente **2.9% em 2000** para cerca de **84% em 2023**.
 - O ano com maior crescimento percentual foi **2018**, com um aumento de **7,43%** em relação ao ano anterior.
 - No ranking global de uso da internet:
-- Em **2000**, o Brasil ocupava a posição **76ª **.
+- Em **2000**, o Brasil ocupava a posição **76ª**.
 - Em **2023**, o Brasil alcançou a posição **59ª**, refletindo um avanço expressivo.
 - A média de crescimento anual do uso da internet no Brasil no período analisado foi de aproximadamente **2,93**.
 - Houve uma desaceleração natural nos últimos anos, indicando que o país se aproxima de uma saturação no acesso, dado que a maior parte da população já está conectada.
