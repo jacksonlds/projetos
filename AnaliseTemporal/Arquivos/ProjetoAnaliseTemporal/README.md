@@ -56,9 +56,16 @@ O projeto foi desenvolvido no ambiente **Jupyter Notebook**, aplicando conceitos
 ## Como Executar este Projeto
 
 ### Pré-requisitos:
-- [Python 3.9 ou superior](https://www.python.org/)
+- [Python](https://www.python.org/) 3.9 ou superior
 - [Jupyter Notebook](https://jupyter.org/)
 - [Git](https://git-scm.com/) (opcional, para clonar o repositório)
+  
+ ## Dependências
+ 
+- [pandas](https://pandas.pydata.org/) — Manipulação e análise de dados
+- [numpy](https://numpy.org/) — Operações numéricas
+- [ipython-sql](https://github.com/catherinedevlin/ipython-sql) — Executar SQL dentro de notebooks Jupyter
+- [sqlalchemy](https://www.sqlalchemy.org/) — Conector para banco de dados SQLite
 
 ### Instalação das dependências:
 Recomenda-se criar um ambiente virtual (opcional, mas boa prática):
@@ -152,17 +159,6 @@ ProjetoAnaliseTemporal/
 - [ ] Adicionar análises preditivas utilizando modelos de Machine Learning para estimar o crescimento futuro do uso da internet.
 - [ ] Melhorar a organização do código, separando funções em scripts Python externos.
 - [ ] Disponibilizar uma API simples que permita consultar os dados processados.
-
----
-
-## Dependências
-
-- [Python](https://www.python.org/) 3.9 ou superior
-- [pandas](https://pandas.pydata.org/) — Manipulação e análise de dados
-- [numpy](https://numpy.org/) — Operações numéricas
-- [ipython-sql](https://github.com/catherinedevlin/ipython-sql) — Executar SQL dentro de notebooks Jupyter
-- [sqlalchemy](https://www.sqlalchemy.org/) — Conector para banco de dados SQLite
-- [jupyter](https://jupyter.org/) — Ambiente para execução dos notebooks
 
 ---
 
