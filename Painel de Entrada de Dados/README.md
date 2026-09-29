@@ -26,6 +26,8 @@ Bem-vindo ao repositório do meu **Painel de Entrada de Dados** desenvolvido em 
 3. **Utilize o Painel:**
    * Preencha os campos solicitados no formulário e clique em **OK**.
    * Navegue até a tabela chamada BASE através da guia ou do ícone no próprio painel e confira o item inserido.
+  
+![Painel](/Painel de Entrada de Dados/Painel.png)
 
 ---
 
