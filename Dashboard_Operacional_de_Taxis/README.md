@@ -35,5 +35,3 @@ Dashboard_Operacional_de_Taxis/
 ├── projeto_dbt/         # Modelos SQL, macros, seeds e projeto dbt configurado
 ├── Painel.png           # Captura ilustrativa do dashboard final de BI
 └── README.md            # Documentação técnica detalhada do projeto
-
-Guia de Execução Local / Cloud (Manual via Docker Compose)Para colocar o ecossistema completo a funcionar em servidores dedicados ou máquinas virtuais (como instâncias Linux na Google Cloud Platform), siga a inicialização modular por componentes:   
