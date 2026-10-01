@@ -1,10 +1,10 @@
-# 🚖 Dashboard Operacional de Táxis - Pipeline de Dados, Orquestração e BI
+# Dashboard Operacional de Táxis - Pipeline de Dados, Orquestração e BI
 
 Este repositório apresenta uma solução completa de engenharia de dados desenvolvida para centralizar, processar, transformar e disponibilizar métricas operacionais de frotas de táxis. A arquitetura foi desenhada seguindo as melhores práticas de mercado, utilizando conteinerização com Docker, orquestração com Apache Airflow e modelagem analítica com o dbt.
 
 ---
 
-## 🏗️ Arquitetura da Solução
+## Arquitetura da Solução
 
 O projeto é estruturado em componentes modulares independentes, permitindo um desacoplamento limpo entre armazenamento, processamento e transformação:
 
@@ -25,7 +25,7 @@ O projeto é estruturado em componentes modulares independentes, permitindo um d
 
 ---
 
-## 📂 Estrutura de Diretórios do Repositório
+## Estrutura de Diretórios do Repositório
 
 ```text
 Dashboard_Operacional_de_Taxis/
@@ -36,7 +36,7 @@ Dashboard_Operacional_de_Taxis/
 ├── Painel.png            # Captura ilustrativa do dashboard final de BI
 └── README.md             # Documentação técnica detalhada do projeto
 
-🚀 Guia de Execução Local / Cloud (Manual via Docker Compose)
+## Guia de Execução Local / Cloud (Manual via Docker Compose)
 
 Para colocar o ecossistema completo a funcionar em servidores dedicados ou máquinas virtuais (como instâncias Linux na Google Cloud Platform), siga a inicialização modular por componentes:
 1. Subir o Serviço de Base de Dados (PostgreSQL)
