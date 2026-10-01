@@ -19,22 +19,27 @@ O projeto é estruturado em componentes modulares independentes, permitindo um d
 3. **Camada de Transformação e Modelagem (`projeto_dbt`)**:
    * Utilização do **dbt (data build tool)** para aplicar o padrão *analytics engineering*.
    * Transformações baseadas em SQL modular, documentação automática de linhagem de dados e testes rigorosos de integridade.
+  
+4. **Camada de Visualização e BI (`metabase`)**:
+   * Utilização da **Metabase** conectada ao PostgreSQL para a criação de painéis i
 
-4. **Automação e Scripts de Apoio (`Script_Python`)**:
+5. **Automação e Scripts de Apoio (`Script_Python`)**:
    * Scripts em Python utilitários criados para auxiliar na carga massiva e manipulação de arquivos de dados ou compactações restritas em ambientes de nuvem.
 
 ---
 
 ## Estrutura de Diretórios do Repositório
 
-```text
+```tex
 Dashboard_Operacional_de_Taxis/
 ├── Script_Python/        # Scripts utilitários em Python para ingestão e suporte
 ├── airflow_docker/       # Configurações do ambiente Docker Compose e DAGs do Airflow
 ├── meu-postgres/         # Ficheiros de configuração, volumes e Docker Compose do PostgreSQL
 ├── projeto_dbt/          # Modelos SQL, macros, seeds e projeto dbt configurado
+├── metabase/             # Configurações ou apontamentos da ferramenta de BI
 ├── Painel.png            # Captura ilustrativa do dashboard final de BI
 └── README.md             # Documentação técnica detalhada do projeto
+```
 
 ## Guia de Execução Local / Cloud (Manual via Docker Compose)
 
@@ -63,7 +68,7 @@ Bash
 cd ../projeto_dbt
 dbt run
 
-📊 Visualização e Métricas
+## Visualização e Métricas
 
 O projeto culmina na entrega de indicadores estratégicos para o negócio de táxis, tais como:
 
@@ -71,12 +76,18 @@ O projeto culmina na entrega de indicadores estratégicos para o negócio de tá
 
     Receita média por trajeto, distância percorrida e formas de pagamento.
 
-    Desempenho operacional e gargalos logísticos mapeados através do painel executivo (Painel.png).
+    Desempenho operacional e gargalos logísticos mapeados através do painel executivo gerado na Metabase
 
-⚙️ Requisitos do Sistema
+  ![Painel do Dashboard](./Painel.png)
+    
+## Requisitos do Sistema
 
-    Docker & Docker Compose: Versão recente recomendada para o isolamento dos serviços.
+    Docker & Docker Compose: Versão recente recomendada para o isolamento dos serviços (PostgreSQL, Apache Airflow e Metabase).
 
-    Python 3.x: Necessário para a execução de scripts utilitários e manipulação de pacotes nativos.
+    Python 3.x: Necessário para a execução de scripts utilitários e manipulação de pacotes nativos e automações.
 
-    Ambiente Linux / Unix: Testado e otimizado para servidores em nuvem com gestão manual de ficheiros via SSH.
+    dbt-core / dbt-postgres**: Necessário na camada de transformação para compilar e executar os modelos analíticos sobre o PostgreSQL.
+
+    Ambiente Linux / Unix: Testado e otimizado para servidores em nuvem com gestão manual de ficheiros via SSH e execução de terminais baseados em Bash.
+    
+    Portas de Rede Disponíveis.
