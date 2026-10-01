@@ -1,11 +1,11 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-usuario = "jacksonls"
-senha = "123"
+usuario = "usuário"
+senha = "senha"
 host = "localhost"
-porta = "5433"
-banco = "jacksondb"
+porta = "porta"
+banco = "database"
 
 url_conexao = f"postgresql+psycopg://{usuario}:{senha}@{host}:{porta}/{banco}"
 
