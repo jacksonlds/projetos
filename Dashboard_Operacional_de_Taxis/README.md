@@ -29,9 +29,54 @@ O projeto é estruturado em componentes modulares independentes, permitindo um d
 
 ```text
 Dashboard_Operacional_de_Taxis/
-├── Script_Python/       # Scripts utilitários em Python para ingestão e suporte
-├── airflow_docker/      # Configurações do ambiente Docker Compose e DAGs do Airflow
-├── meu-postgres/        # Ficheiros de configuração, volumes e Docker Compose do PostgreSQL
-├── projeto_dbt/         # Modelos SQL, macros, seeds e projeto dbt configurado
-├── Painel.png           # Captura ilustrativa do dashboard final de BI
-└── README.md            # Documentação técnica detalhada do projeto
+├── Script_Python/        # Scripts utilitários em Python para ingestão e suporte
+├── airflow_docker/       # Configurações do ambiente Docker Compose e DAGs do Airflow
+├── meu-postgres/         # Ficheiros de configuração, volumes e Docker Compose do PostgreSQL
+├── projeto_dbt/          # Modelos SQL, macros, seeds e projeto dbt configurado
+├── Painel.png            # Captura ilustrativa do dashboard final de BI
+└── README.md             # Documentação técnica detalhada do projeto
+
+🚀 Guia de Execução Local / Cloud (Manual via Docker Compose)
+
+Para colocar o ecossistema completo a funcionar em servidores dedicados ou máquinas virtuais (como instâncias Linux na Google Cloud Platform), siga a inicialização modular por componentes:
+1. Subir o Serviço de Base de Dados (PostgreSQL)
+
+Navegue até a pasta correspondente e execute o arranque do contentor:
+Bash
+
+cd meu-postgres
+docker compose up -d
+
+2. Subir o Orquestrador (Apache Airflow)
+
+Retorne à raiz do repositório, entre na pasta do orquestrador e inicie os serviços:
+Bash
+
+cd ../airflow_docker
+docker compose up -d
+
+3. Executar as Transformações Analíticas (dbt)
+
+Com a infraestrutura de dados a correr, aceda à pasta do dbt para rodar a pipeline de transformação:
+Bash
+
+cd ../projeto_dbt
+dbt run
+
+📊 Visualização e Métricas
+
+O projeto culmina na entrega de indicadores estratégicos para o negócio de táxis, tais como:
+
+    Análise temporal de corridas (picos por hora, dias da semana e sazonalidade).
+
+    Receita média por trajeto, distância percorrida e formas de pagamento.
+
+    Desempenho operacional e gargalos logísticos mapeados através do painel executivo (Painel.png).
+
+⚙️ Requisitos do Sistema
+
+    Docker & Docker Compose: Versão recente recomendada para o isolamento dos serviços.
+
+    Python 3.x: Necessário para a execução de scripts utilitários e manipulação de pacotes nativos.
+
+    Ambiente Linux / Unix: Testado e otimizado para servidores em nuvem com gestão manual de ficheiros via SSH.
